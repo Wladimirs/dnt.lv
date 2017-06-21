@@ -1,0 +1,45 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+    background: rgba(39, 226, 5, 0.2);
+    font-weight: normal;
+/*    background-image: url(http://voldemars.com/public/images/background.jpg);*/
+    background-size:cover;
+    background-position:center center;
+    /*    background-image: url(http://p1.pichost.me/i/11/1344899.jpg);*/
+    /*    background-size:cover;*/
+    /*    background-size: .2em 100%;*/
+
+    margin-bottom: 120px !important;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.shadow {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 4px #aaa; 
+    padding-bottom: 20px;
+}
+
+.btn {
+    background: #ea4335;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    -khtml-border-radius:15px;
+    border-radius:15px;
+    box-shadow: 0 0 10px black;
+}
