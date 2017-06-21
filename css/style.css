@@ -7,7 +7,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: black;
-    background: rgba(39, 226, 5, 0.2);
+    background:
+        linear-gradient(limegreen, transparent),
+        linear-gradient(90deg, skyblue, transparent),
+        linear-gradient(-90deg, coral, transparent);
+    background-blend-mode: screen;
+/*    background: rgba(39, 226, 5, 0.2);*/
     font-weight: normal;
 /*    background-image: url(http://voldemars.com/public/images/background.jpg);*/
     background-size:cover;
@@ -16,7 +21,7 @@ body {
     /*    background-size:cover;*/
     /*    background-size: .2em 100%;*/
 
-    margin-bottom: 120px !important;
+    margin-bottom: 20px !important;
 }
 
 h1 {
