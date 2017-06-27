@@ -156,6 +156,13 @@ h1 {
 }
 /*End carousel image*/
 
+.img {
+    max-width: 974px;
+    max-height: 276px;
+    width: 100%;
+    height: auto;
+}
+
 /* Large Devices,Wide Screens */
 @media (min-width: 980px) {
     
@@ -189,7 +196,7 @@ h1 {
     .carousel-inner{
         height: 250px;
     }
-    h2 {
+    h2, h3 {
         font-size: 1.4em;
     }
 }
