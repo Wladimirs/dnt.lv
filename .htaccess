@@ -25,3 +25,6 @@ SetEnv SERVER_ADMIN dnt@dnt.lv
 order allow,deny
 deny from all
 </files>
+
+#Автоматическое перенаправление пользователя на нужную страницу при возникновении ошибки
+ErrorDocument 404 http://dnt.lv/error404.html
