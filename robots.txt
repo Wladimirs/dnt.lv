@@ -3,3 +3,4 @@ Disallow: /css/
 Disallow: /font-awesome-4.7.0/
 Disallow: /fonts/
 Disallow: /js/
+Disallow: /error404.html
